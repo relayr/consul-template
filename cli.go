@@ -12,9 +12,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hashicorp/consul-template/logging"
-	"github.com/hashicorp/consul-template/signals"
-	"github.com/hashicorp/consul-template/watch"
+	"github.com/relayr/consul-template/logging"
+	"github.com/relayr/consul-template/signals"
+	"github.com/relayr/consul-template/watch"
 )
 
 // Exit codes are int values that represent an exit code for a particular error.

@@ -15,7 +15,7 @@ import (
 	"time"
 
 	"github.com/burntsushi/toml"
-	dep "github.com/hashicorp/consul-template/dependency"
+	dep "github.com/relayr/consul-template/dependency"
 	yaml "gopkg.in/yaml.v2"
 )
 

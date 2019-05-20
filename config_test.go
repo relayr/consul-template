@@ -11,8 +11,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/consul-template/test"
-	"github.com/hashicorp/consul-template/watch"
+	"github.com/relayr/consul-template/test"
+	"github.com/relayr/consul-template/watch"
 )
 
 func testConfig(contents string, t *testing.T) *Config {

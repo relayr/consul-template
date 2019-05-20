@@ -11,7 +11,7 @@ import (
 	"sync"
 	"time"
 
-	dep "github.com/hashicorp/consul-template/dependency"
+	dep "github.com/relayr/consul-template/dependency"
 	consulapi "github.com/hashicorp/consul/api"
 )
 

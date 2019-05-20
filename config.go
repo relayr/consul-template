@@ -12,8 +12,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/hashicorp/consul-template/signals"
-	"github.com/hashicorp/consul-template/watch"
+	"github.com/relayr/consul-template/signals"
+	"github.com/relayr/consul-template/watch"
 	"github.com/hashicorp/go-multierror"
 	"github.com/hashicorp/hcl"
 	"github.com/mitchellh/mapstructure"

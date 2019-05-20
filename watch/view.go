@@ -7,12 +7,12 @@ import (
 	"sync"
 	"time"
 
-	dep "github.com/hashicorp/consul-template/dependency"
+	dep "github.com/relayr/consul-template/dependency"
 )
 
 const (
 	// The amount of time to do a blocking query for
-	defaultWaitTime = 60 * time.Second
+	defaultWaitTime = 1 * time.Second
 )
 
 // View is a representation of a Dependency and the most recent data it has
